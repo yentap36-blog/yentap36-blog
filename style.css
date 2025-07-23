@@ -8,9 +8,10 @@ body {
 .custom-img {
     display: block;
     margin: 16px auto;
-    width: 400px;         /* Giảm bề rộng lại, có thể chỉnh nhỏ hơn nếu muốn */
-    height: 600px;        /* Kéo dài chiều cao */
-    object-fit: cover;    /* Tự động crop ảnh cho vừa khung, đẹp */
+    max-width: 90vw;      /* 90% chiều rộng màn hình */
+    width: 300px;         /* hoặc 100% nếu muốn co dãn */
+    max-height: 400px;    /* Giới hạn chiều cao */
+    object-fit: cover;    /* Crop ảnh cho vừa khung */
     border-radius: 16px;
     box-shadow: 0 2px 16px rgba(0,0,0,0.08);
     background: #fff;
