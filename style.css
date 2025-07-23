@@ -45,6 +45,7 @@ h2 {
 p, ul, li {
     font-size: 1.05rem;
     line-height: 1.7;
+    text-align: justify;
 }
 
 ul {
