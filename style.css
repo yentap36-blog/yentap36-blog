@@ -21,7 +21,7 @@ main {
     max-width: 750px;
     margin: 40px auto;
     background: #fff;
-    padding: 36px 15px 40px 15px;
+    padding: 36px 25px 40px 25px;
     border-radius: 18px;
     box-shadow: 0 8px 32px rgba(181, 150, 89, 0.15);
 }
