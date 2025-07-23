@@ -5,11 +5,15 @@ body {
     margin: 0;
     padding: 0;
 }
-img {
+.custom-img {
     display: block;
     margin: 16px auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    width: 400px;         /* Giảm bề rộng lại, có thể chỉnh nhỏ hơn nếu muốn */
+    height: 600px;        /* Kéo dài chiều cao */
+    object-fit: cover;    /* Tự động crop ảnh cho vừa khung, đẹp */
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    background: #fff;
 }
 
 main {
